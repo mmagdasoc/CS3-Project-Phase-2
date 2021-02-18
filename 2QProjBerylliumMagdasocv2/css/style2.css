@@ -1,0 +1,244 @@
+.logo {
+    width: 400px;
+    height: 400px;
+    margin-right: -100px;
+    /* This would be the customizations for the size, border, and position of the descriptions of the graph. */
+}
+
+::selection{
+    color: #C84E0A;
+    background-color: #fffefb;
+}
+
+#nav {
+    margin-top: -165px;
+    overflow: hidden;
+    background-color:#E6E2DA;
+     /* This would be the customizations for the color, position, and size of the nav bar. */
+}
+
+div#nav ul{
+    margin-top: -200px;
+    text-align: right;
+    list-style-type: none;
+}
+
+div#nav li{
+    display: inline-block;
+    font-family: "Afterglow";
+    font-size: larger;
+    /* This would be the customizations for the font, position, and size of the menus in the nav bar. */
+}
+
+#search {
+    width: 100%;
+    font-size: 18px;
+    padding: 11px;
+    border: 1px solid #ddd;
+    /* This would be the customizations for the color, padding, position, and size of the search bar. */
+}
+
+#links input[type=text] {
+    display: block;
+    float: right;
+    padding: 6px;
+    border: none;
+    margin-top: -3px;
+    margin-right: 16px;
+    font-size: 17px;
+    font-family: "Afterglow";
+    /* This would be the customizations for the color, font, position, and size of the search bar. */
+  }
+
+div#nav a{
+    padding-right: 20px;
+    text-decoration: none;
+    color:#86847B;
+    /* This would be the customizations for the color, position and size of the texts in the nav bar. */
+}
+
+#links li a:hover {
+    color: #C84E0A;
+    /* This would be the customization for the texts of the menus when the mouse hovers over them. */
+}
+
+#header{
+    background-color: #86847B;
+    padding: 10px 10px 10px 10px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    display: grid;
+    margin: auto;
+    content: " ";
+    clear: both;
+    /* This would be the customizations for the position of the header. */
+}
+
+#wrapper{
+    width: 100%;
+    min-width: 900px;
+    color: #272727;
+    background-color: #E6E2DA;
+    margin: auto;
+     /* This would be the customizations for the position and margin of the wrapper. */
+}
+
+.left {
+    border-color: #E6E2DA;
+    border-style: solid;
+    border-width: 5px;
+    width: 95%;
+    /* This would be the customizations for the color, border, position, and margin of the left column. */
+}
+
+.right {
+    border-color: #E6E2DA;
+    border-style: solid;
+    border-width: 5px;
+    padding: 10px 10px 10px 10px;
+    width: 193%;
+    /* This would be the customizations for the color, border, position, and margin of the right column. */
+}
+
+#header:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+
+body {
+    background-color: #E6E2DA;
+}
+
+/* This would be the ccustomization for the color of the whole website. */
+
+h1 {
+    color: #E6E2DA;
+    font-size: 210%;
+    font-family: "Skia";
+    text-align: center;
+    align-items: center;
+     /* This would be the customizations for the color, size, font, border, and position of the titles. */
+}
+
+#description {
+    color: #E6E2DA;
+    text-align: justify;
+    align-items: center;
+}
+
+#intro {
+    margin: auto;
+    color: #272727;
+    border: #86847B;
+    border-width: 5px;
+    padding: 5px;
+    border-style: solid;
+    text-align: center;
+    width: 60%;
+    font-size: larger;
+    /* This would be the customizations for the position, margin, and borders of the introduction or the first paragraph after the header. */
+    }
+
+#main1 {
+    overflow: auto;
+    border: #86847B;
+    border-width: 3px;
+    border-style: solid;
+    /* This would be the customizations of box that makes up the title, text, and cartoons. */
+}
+
+.img1 {
+    overflow: auto;
+    width: 300px;
+    height: 260px;
+    float: left;
+    padding: 20px 10px;
+    /* This would be the customizations for the size, border, and position of the images of the president. */
+}
+
+.h_one {
+    color: #C84E0A;
+    font-family: "Skia";
+    overflow: auto;
+    padding: 10px 10px;
+    text-align: justify;
+    /* This would be the customizations for the color, size, font, border, and position of the titles at the side of the pictures that is aligned to the left */
+}
+
+.info1 {
+    text-align: justify;
+    align-items: center;
+    padding: 10px 10px;
+    overflow: auto;
+    /* This would be the customizations for the size, border, and position on the information about the titles at the side of the pictures that is aligned to the left. */
+}
+
+.column1 {
+    float: left;
+    width: 31.92%;
+    padding: 10px;
+    height: 350px;
+    background-color: #86847B;
+    /* */
+  }
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.c_h2 {
+    color: #E6E2DA;
+    font-size: 170%;
+    font-family: "Skia";
+    text-align: left;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+.p_c1 {
+    padding: 10px 10px;
+    text-align: justify;
+}
+
+#footer{
+    background-color: #86847B;
+    color:#E6E2DA;
+    font-size: 80%;
+    text-align:center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+#main2 {
+    overflow: auto;
+    border: #86847B;
+    border-width: 3px;
+    border-style: solid;
+    /* This would be the customizations of box that makes up the title, text, and cartoons. */
+}
+
+.img2 {
+    overflow: auto;
+    height: 260px;
+    width: 300px;
+    float: right;
+    padding: 20px 10px;
+    /* This would be the customizations for the size, border, and position of the images of the president. */
+}
+
+.info2 {
+    text-align: justify;
+    align-items: center;
+    padding: 10px 10px;
+    overflow: auto;
+    /* This would be the customizations for the size, border, and position on the information about the titles at the side of the cartoons that is aligned to the left. */
+}
+
+@media screen and (max-width: 600px) {
+    .column {
+        width: 100%; }
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the three columns stack on top of each other instead of next to each other */
